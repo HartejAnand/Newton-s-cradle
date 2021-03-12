@@ -61,6 +61,6 @@ function draw() {
 
 keyPressed=function(){
 	if(keyDown("up")){
-		Matter.Body.applyForce(ball1.body,ball1.body.position,{x:-1000,y:-1000});
+		Matter.Body.applyForce(ball1.body,ball1.body.position,{x:-100000,y:-100000});
 	}
 };
