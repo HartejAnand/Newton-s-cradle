@@ -61,6 +61,6 @@ function draw() {
 
 keyPressed=function(){
 	if(keyDown("left")){
-		Matter.Body.applyForce(ball1.body,ball1.body.position,{x:-100,y:-100});
+		Matter.Body.applyForce(ball1.body,ball1.body.position,{x:-500,y:-500});
 	}
 };
